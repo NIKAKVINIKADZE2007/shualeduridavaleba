@@ -1,0 +1,82 @@
+.summaryContainer {
+  width: 368px;
+}
+.summaryheader {
+  font-size: 24px;
+  color: #303b59;
+  padding: 38px 224px 0px 40px;
+}
+.statsContainer {
+  width: 288px;
+  height: 272px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 28px 40px 41px 40px;
+  flex-direction: column;
+}
+.statsContainer div {
+  height: 56px;
+  border-width: 1px;
+  border-color: #e7e7e7;
+  border-style: solid;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+.statsContainer div img {
+  padding-left: 16px;
+}
+
+.ReactionContainer {
+  background-color: rgba(255, 85, 85, 0.1);
+}
+.Memorycontainer {
+  background-color: rgba(255, 178, 30, 0.1);
+}
+.Verbalcontainer {
+  background-color: rgba(0, 187, 143, 0.1);
+}
+.Visualcontainer {
+  background-color: rgba(17, 37, 214, 0.1);
+}
+.statsContainer div #higlited {
+  font-size: 18px;
+  padding-left: 12px;
+}
+.reactionHiglited {
+  padding-right: 81px;
+  color: #ff5555;
+}
+.statsContainer .Score {
+  color: #303b59;
+  font-weight: bold;
+}
+.outOf100 {
+  color: rgba(102, 127, 191, 0.5);
+  font-weight: bold;
+  padding-left: 8px;
+  font-size: 18px;
+}
+.memoryHiglited {
+  padding-right: 84px;
+  color: #ffb21e;
+}
+.VerbalHiglited {
+  padding-right: 99px;
+  color: #00bb8f;
+}
+.visualHiglited {
+  padding-right: 102px;
+  color: #1125d6;
+}
+.buttonContainer {
+  width: 288px;
+  height: 56px;
+  margin: 0px 40px 46px;
+  background-color: #303b59;
+  border-width: 0px;
+  border-color: #e7e7e7;
+  border-radius: 128px;
+  color: #ffffff;
+  font-size: 18px;
+}

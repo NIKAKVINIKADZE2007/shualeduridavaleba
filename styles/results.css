@@ -1,0 +1,65 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f5f5f5;
+  font-family: "Hanken Grotesk";
+}
+.container {
+  width: 740px;
+  height: 520px;
+  border-radius: 32px;
+  border-color: #979797;
+  background-color: #ffffff;
+  display: flex;
+}
+.results {
+  background-image: linear-gradient(to bottom, #6943ff, #593df9, #2f2ce9);
+  border-color: #979797;
+  border-radius: 32px;
+}
+.yourResultsp {
+  color: #cac9ff;
+  font-size: 24px;
+  padding: 38px 124px 35px 119px;
+}
+.scoreContainer {
+  margin: 0px 84px 28px 84px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, #4d21c9, #2521c9);
+}
+.score {
+  padding-top: 55px;
+  color: #ffffff;
+  font-size: 72px;
+}
+.out-of-100 {
+  font-size: 18px;
+  padding-bottom: 46px;
+  color: #cac9ff;
+}
+.lowerTextcontainer {
+  padding: 28px 54px 46px;
+  width: 260px;
+  height: 134px;
+}
+.great {
+  font-size: 32px;
+  color: #ffffff;
+  padding: 0px 91px 14px 86px;
+}
+.lowerText2 {
+  color: #cac9ff;
+  font-size: 18px;
+  text-align: center;
+  width: 260px;
+  height: 69px;
+}
